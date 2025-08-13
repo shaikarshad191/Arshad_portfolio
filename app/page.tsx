@@ -111,19 +111,23 @@ export default function Portfolio() {
           </div>
 
           <div className="animate-bounce-in">
-            <h1 className="text-6xl md:text-8xl font-bold mb-6 font-serif">
-              <span className="inline-block animate-letter-1">S</span>
-              <span className="inline-block animate-letter-2">H</span>
-              <span className="inline-block animate-letter-3">A</span>
-              <span className="inline-block animate-letter-4">I</span>
-              <span className="inline-block animate-letter-5">K</span>
-              <span className="inline-block mx-4"></span>
-              <span className="inline-block animate-letter-6">A</span>
-              <span className="inline-block animate-letter-7">R</span>
-              <span className="inline-block animate-letter-8">S</span>
-              <span className="inline-block animate-letter-9">H</span>
-              <span className="inline-block animate-letter-10">A</span>
-              <span className="inline-block animate-letter-11">D</span>
+            <h1 className="text-5xl md:text-8xl font-bold mb-6 font-serif">
+              <span className="block md:inline">
+                <span className="inline-block animate-letter-1">S</span>
+                <span className="inline-block animate-letter-2">H</span>
+                <span className="inline-block animate-letter-3">A</span>
+                <span className="inline-block animate-letter-4">I</span>
+                <span className="inline-block animate-letter-5">K</span>
+              </span>
+              <span className="hidden md:inline mx-4"></span>
+              <span className="block md:inline">
+                <span className="inline-block animate-letter-6">A</span>
+                <span className="inline-block animate-letter-7">R</span>
+                <span className="inline-block animate-letter-8">S</span>
+                <span className="inline-block animate-letter-9">H</span>
+                <span className="inline-block animate-letter-10">A</span>
+                <span className="inline-block animate-letter-11">D</span>
+              </span>
             </h1>
           </div>
 
